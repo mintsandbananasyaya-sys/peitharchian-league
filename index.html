@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peitharchia League</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#home">PEITHARCHIA LEAGUE <span class="season" id="season"></span></a>
+    <nav>
+      <a href="#teams">Teams</a><a href="#table">Table</a><a href="#upcoming">Upcoming</a><a href="#results">Results</a><a href="#stats">Stats</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section id="home" class="hero">
+    <div class="wrap">
+      <h1>PEITHARCHIA LEAGUE</h1>
+      <p>A competitive Minecraft 2v2 PvP league. Every team plays every other team once. Matches are best of 5 rounds, and the first duo to win 3 rounds takes the match and 3 league points.</p>
+    </div>
+  </section>
+  <div class="wrap" id="warnings"></div>
+  <section id="teams"><div class="wrap"><h2>Teams</h2><div class="grid" id="teamGrid"></div></div></section>
+  <section id="table"><div class="wrap"><h2>League table</h2><div class="scroll"><table id="leagueTable"></table></div>
+    <p class="note">Ranked by league points, then round difference, then total damage, then head-to-head.</p></div></section>
+  <section id="upcoming"><div class="wrap"><h2>Upcoming matches</h2><div class="list" id="fixtureList"></div></div></section>
+  <section id="results"><div class="wrap"><h2>Match results</h2><div class="list" id="resultList"></div></div></section>
+  <section id="stats"><div class="wrap"><h2>Player statistics</h2><div class="scroll"><table id="playerTable"></table></div></div></section>
+</main>
+<footer><div class="wrap">Peitharchia League</div></footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
