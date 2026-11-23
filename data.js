@@ -22,8 +22,8 @@ window.LEAGUE = {
 
   // Finished matches. Winner must have 3 rounds, the other 0-2.
   // "players" lists who actually played, so history stays correct after substitutions.
-  results: [
-    { date: "TBD", teamA: "eclipse", teamB: "revenant", scoreA: 0, scoreB: 0,
+results: [
+  { date: "TBD", status: "Pending", teamA: "eclipse", teamB: "revenant", scoreA: 0, scoreB: 0,
       players: [
         { name: "_vicktor", team: "eclipse",  kills: 0, deaths: 0, damage: 0, duelsWon: 0, duelsLost: 0 },
         { name: "Aesily", team: "eclipse",  kills: 0, deaths: 0, damage: 0, duelsWon: 0, duelsLost: 0 },
