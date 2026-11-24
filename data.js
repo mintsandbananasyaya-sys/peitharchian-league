@@ -11,6 +11,13 @@ window.LEAGUE = {
       former: []
     },
     {
+  id: "dominion",
+  name: "Team Dominion",
+  status: "Active",
+  players: ["Clintplayz", "Beyrrier"],
+  former: []
+},
+    {
       id: "revenant",
       name: "Team Revenant",
       status: "Active",
