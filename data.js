@@ -10,6 +10,13 @@ window.LEAGUE = {
       players: ["Aesily", "_vicktor"],
       former: []
     },
+        {
+      id: "gank",
+      name: "Team Gank",
+      status: "Active",
+      players: ["SkullTakerMB", "farlue"],
+      former: []
+    },
     {
   id: "havoc",
   name: "Team Havoc",
